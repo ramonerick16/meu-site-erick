@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  /* Define a fonte padrão para o corpo do documento */
+  margin: 0;
+  /* Remove a margem padrão */
+  padding: 0;
+  /* Remove o preenchimento padrão */
+  background: #febe01;
+  /* Define a cor de fundo do corpo */
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 5;
+}
+
+nav ul li {
+  display: inline; /* Exibe os itens da lista em linha */
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: solid; /* Define a decoração do texto como sólida */
+  background: #111;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 4px;
+  color: #fff;
+}
+
+main {
+  padding: 20px; /* Adiciona preenchimento ao conteúdo principal */
+}
+
+footer {
+  background-color: #333;
+  color: royalblue;
+  text-align: center;
+  padding: 5px 0;
+  position: fixed;
+  width: 100%; /* Define a largura do rodapé como 100% */
+  bottom: 0; /* Posiciona o rodapé na parte inferior da página */
+}
+
+.acessar {
+  display: inline-block;
+  /* Exibe o elemento como um bloco em linha */
+  padding: 5px 10px;
+  background: #a8f;
+  color: #103;
+  text-decoration: none;
+  border-radius: 4px;
+  /* Adiciona bordas arredondadas ao elemento */
+}
+
+img {
+  max-width: 35%;
+  /* Define a largura máxima da imagem como 30% */
+}
